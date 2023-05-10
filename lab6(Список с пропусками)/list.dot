@@ -1,0 +1,29 @@
+digraph list {
+    node [fontname="Arial"];
+    asxa0 [pos = "0,0!"]
+    asxa1 [pos = "0,1!"]
+    asxa2 [pos = "0,2!"]
+    asxa3 [pos = "0,3!"]
+    ergegr0 [pos = "2,0!"]
+    wer0 [pos = "4,0!"]
+    wer1 [pos = "4,1!"]
+    wer2 [pos = "4,2!"]
+    wfwef0 [pos = "6,0!"]
+    ythtyht0 [pos = "8,0!"]
+    ythtyht1 [pos = "8,1!"]
+    00 [pos = "12,0!"]
+    01 [pos = "12,1!"]
+    02 [pos = "12,2!"]
+    03 [pos = "12,3!"]
+    asxa0 -> ergegr0
+    ergegr0 -> wer0
+    wer0 -> wfwef0
+    wfwef0 -> ythtyht0
+    ythtyht0 -> 00
+    asxa1 -> wer1
+    wer1 -> ythtyht1
+    ythtyht1 -> 01
+    asxa2 -> wer2
+    wer2 -> 02
+    asxa3 -> 03
+}
